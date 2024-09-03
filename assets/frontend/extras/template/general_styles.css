@@ -1,0 +1,61 @@
+.major-discount-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    color: var(--color-primary) !important;
+    text-decoration: none;
+}
+
+.major-discount-button:hover {
+    text-decoration: none;
+}
+
+.major-discount-button p {
+    margin: 0;
+    text-decoration: underline;
+}
+
+.discount-banner {
+    background-color: var(--color-primary);
+    color: #fff;
+    width: 100%;
+    padding: 3px 2px;
+    text-align: center;
+    font-size: 14px;
+    border-bottom-right-radius: 8px;
+}
+
+.card-body.card-body-discount {
+    padding: .7em 1em;
+}
+
+.original-discount-price {
+    text-decoration: line-through;
+    font-size: 15px;
+}
+
+.discount-price {
+    color: var(--color-primary);
+    font-size: 20px;
+}
+
+.badge-discount {
+    color: #fff;
+    background-color: var(--color-primary);
+}
+
+.text-discount {
+    color: var(--color-primary);
+}
+
+@media (min-width: 768px) {
+    .discount-banner {
+        width: 50%;
+    }
+}
+
+.angulo-item-img {
+    position: relative;
+}
